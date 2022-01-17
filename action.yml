@@ -7,8 +7,8 @@ inputs:
     required: true
   port:
     description: 'Dependency-Track port'
-    required: true
-    default: 8080
+    required: false
+    default: 443
   apikey:
     description: 'Dependency-Track API key'
     required: true
